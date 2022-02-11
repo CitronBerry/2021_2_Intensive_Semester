@@ -15,8 +15,12 @@ public class Fire : MonoBehaviour
     public AudioClip EmptyReloadSound;
 
     Animator anim;
+<<<<<<< HEAD
     bool isReloading;               // 장전중
     public bool isEmpty;            // 총알 수 없는지 확인
+=======
+    bool isReloading;
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
 
     public int allBullet;           // 전체 탄 수
     public int availableBullet;     // 사용 가능한 탄 수
@@ -30,7 +34,10 @@ public class Fire : MonoBehaviour
 
     public GameObject HitHole;      // 탄 구멍
     public GameObject HitSplash;    // 탄 맞으면 튀기는 것
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
     #endregion
 
     void Start()
@@ -46,12 +53,19 @@ public class Fire : MonoBehaviour
     
     void Update()
     {
+<<<<<<< HEAD
 
         if (isReloading == true)
         {
             // 리로딩 끝났을때
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("Reload")
                 && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= reloadRate)
+=======
+        if(isReloading == true)
+        {
+            // 리로딩 끝났을때
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Reload") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= reloadRate)
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
             {
                 ReloadText();
                 isReloading = false;
@@ -65,7 +79,10 @@ public class Fire : MonoBehaviour
         if (currBullet == 0)
         {
             anim.CrossFadeInFixedTime("Reload Empty", 0.01f);
+<<<<<<< HEAD
             isEmpty = true;
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
         }
 
         // 마우스 왼쪽 클릭
@@ -80,8 +97,11 @@ public class Fire : MonoBehaviour
             Reload();
         }
 
+<<<<<<< HEAD
         BulletCount.text = currBullet + " / " + allBullet;
 
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
         if (fireTimer < fireRate)
         {
             fireTimer += Time.deltaTime;
@@ -98,7 +118,10 @@ public class Fire : MonoBehaviour
 
         if (currBullet > 0)
         {
+<<<<<<< HEAD
             isEmpty = false;
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
             Audio.clip = FireSound;
             RaycastHit hit;
             if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
@@ -115,9 +138,15 @@ public class Fire : MonoBehaviour
             // 격발 사운드
             Audio.Play();
 
+<<<<<<< HEAD
             // 총알 감소와 여러 것들
             currBullet--;
             fireTimer = 0f;
+=======
+            currBullet--;
+            fireTimer = 0f;
+            BulletCount.text = currBullet + " / " + allBullet;
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
         }
         else
         {

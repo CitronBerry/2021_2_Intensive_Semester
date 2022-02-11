@@ -150,7 +150,10 @@ MonoBehaviour:
   EmptyFireSound: {fileID: 8300000, guid: 0c187ee2790c74c4e9985aa1ee1a12d5, type: 3}
   ReloadSound: {fileID: 8300000, guid: 778c7be53403f9e45804f5a61a13a3e6, type: 3}
   EmptyReloadSound: {fileID: 8300000, guid: 1fe5c2e1733f354428fe88c1a7cbafe4, type: 3}
+<<<<<<< HEAD
   isEmpty: 0
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   allBullet: 1000
   availableBullet: 30
   currBullet: 0
@@ -312,6 +315,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -362,7 +369,10 @@ GameObject:
   - component: {fileID: 312446890}
   - component: {fileID: 312446889}
   - component: {fileID: 312446888}
+<<<<<<< HEAD
   - component: {fileID: 312446891}
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_Layer: 0
   m_Name: Pistol Stand
   m_TagString: Untagged
@@ -392,7 +402,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312446886}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IsTrigger: 1
+=======
+  m_IsTrigger: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -408,6 +422,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -446,6 +464,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312446886}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!114 &312446891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,6 +479,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pistol: {fileID: 2005248279}
   ar: {fileID: 20770474}
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
 --- !u!4 &324898115 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8445401694593213622, guid: 8c7ba79f8ec05794aba7ffdd3d8aba93, type: 3}
@@ -522,6 +543,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -785,7 +810,11 @@ GameObject:
   - component: {fileID: 466667991}
   m_Layer: 0
   m_Name: Player
+<<<<<<< HEAD
   m_TagString: Player
+=======
+  m_TagString: Untagged
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1100,6 +1129,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1401,11 +1434,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 189091626146063571, guid: 464d2b315a1ed6b408948cc2fc04e8f7, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -0.08000004
       objectReference: {fileID: 0}
     - target: {fileID: 189091626146063571, guid: 464d2b315a1ed6b408948cc2fc04e8f7, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.39299965
+=======
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 189091626146063571, guid: 464d2b315a1ed6b408948cc2fc04e8f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.393
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
       objectReference: {fileID: 0}
     - target: {fileID: 189091626146063571, guid: 464d2b315a1ed6b408948cc2fc04e8f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1497,11 +1538,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8445401694593213622, guid: 8c7ba79f8ec05794aba7ffdd3d8aba93, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -0.13499999
       objectReference: {fileID: 0}
     - target: {fileID: 8445401694593213622, guid: 8c7ba79f8ec05794aba7ffdd3d8aba93, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.34100056
+=======
+      value: -0.135
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445401694593213622, guid: 8c7ba79f8ec05794aba7ffdd3d8aba93, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.34100038
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
       objectReference: {fileID: 0}
     - target: {fileID: 8445401694593213622, guid: 8c7ba79f8ec05794aba7ffdd3d8aba93, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1548,7 +1597,10 @@ GameObject:
   - component: {fileID: 1153804955}
   - component: {fileID: 1153804954}
   - component: {fileID: 1153804953}
+<<<<<<< HEAD
   - component: {fileID: 1153804956}
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_Layer: 0
   m_Name: AR Stand
   m_TagString: Untagged
@@ -1578,7 +1630,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153804951}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IsTrigger: 1
+=======
+  m_IsTrigger: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1594,6 +1650,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1632,6 +1692,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153804951}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!114 &1153804956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,6 +1707,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pistol: {fileID: 2005248279}
   ar: {fileID: 20770474}
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
 --- !u!4 &1155655503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 189091626146063571, guid: 464d2b315a1ed6b408948cc2fc04e8f7, type: 3}
@@ -1708,6 +1771,10 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1803,6 +1870,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1929,6 +2000,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2224,7 +2299,10 @@ MonoBehaviour:
   EmptyFireSound: {fileID: 8300000, guid: 0c187ee2790c74c4e9985aa1ee1a12d5, type: 3}
   ReloadSound: {fileID: 8300000, guid: 125edb9e36f963249bc792cca38492b1, type: 3}
   EmptyReloadSound: {fileID: 8300000, guid: c565065df3907944b8b58f0d27066ba8, type: 3}
+<<<<<<< HEAD
   isEmpty: 0
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   allBullet: 70
   availableBullet: 7
   currBullet: 0
@@ -2356,6 +2434,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
+=======
+  m_StaticShadowCaster: 0
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1

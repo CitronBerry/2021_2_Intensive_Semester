@@ -24,15 +24,22 @@ public class CameraRotate : MonoBehaviour
     float x;
     float y;
 
+<<<<<<< HEAD
     GameObject pistol;
     GameObject ar;
     bool isEmpty;
 
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
     #endregion
 
     void Start()
     {
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
     }
 
     
@@ -45,6 +52,7 @@ public class CameraRotate : MonoBehaviour
         x += frameInput.x * RotationSpeed * Time.deltaTime;
         y += frameInput.y * RotationSpeed * Time.deltaTime;
 
+<<<<<<< HEAD
         // 반동
         if (Input.GetButton("Fire1"))
         {
@@ -53,6 +61,8 @@ public class CameraRotate : MonoBehaviour
             y += Random.Range(0.1f, 0.2f);
         }
 
+=======
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
         // y범위 체크
         y = Mathf.Clamp(y, yClamp.x, yClamp.y);
 

@@ -43,7 +43,15 @@ public class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+<<<<<<< HEAD
             // 2단 점프 막음
+=======
+            // 머에 다아있지 않을 때 점프
+            //if (pp.collisionFlags == CollisionFlags.Below)
+            //{
+            //    YelocityY = JumpPower;
+            //}
+>>>>>>> 1c241d4cf4a07f1c2afc7f54a96674cf5b078f36
             if(pp.isGrounded)
             {
                 YelocityY = JumpPower;
